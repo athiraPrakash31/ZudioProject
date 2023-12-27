@@ -1,12 +1,37 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    font-family:  Noto Sans ;
+    font-family: Noto Sans;
 }
-#text{
+
+#text {
     color: white;
     padding: 20px;
 }
-#text:hover{
+
+#text:hover {
     color: rgba(197, 182, 154, 0.575);
+}
+
+.proper {
+    position: absolute;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.proper ul a{
+    color: yellow;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+}
+.proper ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.carousel-item {
+    position: relative;
 }
